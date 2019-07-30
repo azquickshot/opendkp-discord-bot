@@ -11,8 +11,8 @@ namespace opendkp_bot.Services
     {
         private static DKPService fInstance;
         private static int CacheTimer = 5;
-        private static string DKP_URL = "https://7gnjtigho4.execute-api.us-east-2.amazonaws.com/beta/dkp";
-        private static string ClientId = "3+xWC5MyBkSgSTpB+7QlXA==";
+        private static string DKP_URL = "https://4jmtrkwc86.execute-api.us-east-2.amazonaws.com/beta/client/imperfekt";
+        private static string ClientId = "yGzZHVwQpk+AriLrcvi3+w==";
 
         public DKPService()
         {
